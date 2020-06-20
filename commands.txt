@@ -1,0 +1,3 @@
+- docker-compose exec app bash
+    - php artisan dump-server
+
