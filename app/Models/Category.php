@@ -4,7 +4,8 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
-use Ramsey\Uuid\Uuid;
+#use Ramsey\Uuid\Uuid;
+use App\Models\Traits;
 
 class Category extends Model
 {
